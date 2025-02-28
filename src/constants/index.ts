@@ -16,3 +16,6 @@ export const BRIDE = {
   },
   phone: "010-1234-5678",
 };
+
+export const WEDDING_DATE = "2025-02-28";
+export const WEDDING_TIME = "14:50";
