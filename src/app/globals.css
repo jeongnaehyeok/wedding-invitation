@@ -2,9 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+  색상 기준은 해당 사이트를 참고했습니다. 
+   https://encycolorpedia.kr/afbeff 
+*/
+:root {
+  --color-dark-3: #8999d8;
+  --color-dark-2: #96a5e5;
+  --color-dark-1: #a2b2f2;
+  --color-main: #afbeff;
+  --color-light-1: #bccbff;
+  --color-light-2: #c9d7ff;
+  --color-light-3: #d6e4ff;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #ffafb6;
+  --color-yellow: #e6e5c8;
+  --color-green: #c0eeed;
+  --color-text-base: #09090b;
+}
+
 body {
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: var(--color-text-base);
 }
