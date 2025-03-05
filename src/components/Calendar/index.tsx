@@ -1,5 +1,3 @@
-"use client";
-
 import { WEDDING_DATE } from "@/constants";
 
 const Calendar = () => {
@@ -15,7 +13,7 @@ const Calendar = () => {
 
   return (
     <div className="flex flex-col items-center justify-center gap-5">
-      <h1 className="text-xl text-main">{month.toLocaleString()}월</h1>
+      <h1 className="text-xl text-main text-gray">{month}월</h1>
       <div className="grid grid-cols-7 gap-3 text-center">
         {["일", "월", "화", "수", "목", "금", "토"].map((day, index) => (
           <div

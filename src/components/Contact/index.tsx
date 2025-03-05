@@ -85,7 +85,7 @@ const ContactItem = ({ side }: IContactItem) => {
 const Contact = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-5 px-6">
-      <h1 className="text-xl text-main">마음 전하실 곳</h1>
+      <h1 className="text-xl text-main font-bold">마음 전하실 곳</h1>
       <div className="flex flex-col rounded-xl overflow-hidden shadow-md w-full">
         <ContactItem side="신랑" />
         <hr className="border-t w-full border-gray-200" />
